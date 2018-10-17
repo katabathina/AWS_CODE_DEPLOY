@@ -20,6 +20,6 @@ permissions:
        - file
 hooks:
   ValidateService:
-    - location: scripts/startapache.sh
+    - location: scripts/installapache.sh
       timeout: 300
       runas: root
