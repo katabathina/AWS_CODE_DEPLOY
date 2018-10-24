@@ -18,8 +18,4 @@ permissions:
      group: root
      type:
        - file
-hooks:
-  ValidateService:
-    - location: scripts/startapache.sh
-      timeout: 300
-      runas: root
+
